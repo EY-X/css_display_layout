@@ -1,5 +1,8 @@
 /* * {
     box-sizing: border-box; */
+header {
+    margin-bottom: 0;
+}
 h1 {
     text-align: center;
     background-color: #272222;
@@ -7,10 +10,16 @@ h1 {
     padding: 30px 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+nav ul {
+    margin-top: 0;
+}
 nav {
     padding: 0 10px;
     font-family: Arial, Helvetica, sans-serif;
-    }
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
 li {
     display: inline-block;
     margin: 0 15px 0 0;
@@ -20,27 +29,34 @@ li {
 }
 ul {
     text-align: center;
+    margin-top: 30px;
 }
 .link1 {
     padding: 7px;
     color: white;
-    background-color: grey;
+    background-color: lightgrey;
     text-decoration: none;
-    
 }
 .titleimg {
     font-size: 28px;
     background-color: rgb(71, 245, 207);
+    margin: 10px 190px;
 }
 .six {
     border-bottom: 2px solid yellow;
-    font-weight: 700
+    font-weight: 700;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
 .img {
     display: inline-block;
+    justify-content: space-between;
+    padding: 0 3px;
+}
+.imgbox {
+    display: flex;
+    justify-content: center;
 }
 .mods {
     text-align: center;
@@ -51,4 +67,9 @@ p {
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    height: 30px; 
+    margin: 10px 190px;
 }
+/* #heading {
+    margin-top: 
+} */
